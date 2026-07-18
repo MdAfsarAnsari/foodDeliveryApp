@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Muskan Google</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="index.css">
+
+  <!-- Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+
+<div class="mobile">
+
+  <!-- ================= HOME PAGE ================= -->
+  <div id="homePage">
+
+    <div class="top">
+      <span class="material-icons">edit</span>
+      <!-- <img src="assets/muskan2.png" class="profile"> -->
+<img src="assets/muskan2.png" alt="Muskan" class="profile">
+    </div>
+
+    <div class="logo">
+      <span style="color:#4285F4">G</span>
+      <span style="color:#EA4335">o</span>
+      <span style="color:#FBBC05">o</span>
+      <span style="color:#4285F4">g</span>
+      <span style="color:#34A853">l</span>
+      <span style="color:#EA4335">e</span>
+    </div>
+
+    <div class="search-box">
+      <span class="material-icons">search</span>
+      <input type="text" id="mainSearch" placeholder="Search Google or type URL">
+      <span class="material-icons">mic</span>
+      <span class="material-icons">photo_camera</span>
+    </div>
+
+    <div class="buttons">
+      <div class="btn">✨ AI Mode</div>
+      <div class="btn">🕶 Incognito</div>
+    </div>
+
+    <div class="apps">
+      <div class="app">
+        <img src="https://cdn-icons-png.flaticon.com/512/124/124010.png">
+        <p>Facebook</p>
+      </div>
+      <div class="app">
+        <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png">
+        <p>YouTube</p>
+      </div>
+      <div class="app">
+        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111628.png">
+        <p>Wikipedia</p>
+      </div>
+      <div class="app">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png">
+        <p>Instagram</p>
+      </div>
+    </div>
+
+    <div class="discover">
+      <h3>Discover</h3>
+
+      <div class="ad-card">
+        <div class="ad-text">
+          Luxury Sedan (top-class comfort)0–100 km/h: around 4.9 sec
+          <p style="font-size:12px; color:#aaa;">Sponsored</p>
+        </div>
+        <img src="https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2">
+      </div>
+
+    </div>
+
+  </div>
+  
+
+  <!-- ================= RESULT PAGE ================= -->
+  <div id="resultPage" class="result-page">
+
+    <div class="result-top">
+      <span class="material-icons" onclick="goBack()">arrow_back</span>
+      <div class="google-text">Google</div>
+
+      <img src="assets/muskan2.jpg" alt="Muskan" class="profile">
+      <!-- <img src="https://i.pravatar.cc/40?img=47" class="profile"> -->
+    </div>
+
+    <div class="result-search">
+      <input type="text" id="resultInput" placeholder="Search again...">
+      <span class="material-icons">mic</span>
+    </div>
+
+    <div class="result-tabs">
+      <span class="active">All</span>
+      <span>Images</span>
+      <span>Videos</span>
+      <span>News</span>
+    </div>
+
+    <div class="result-suggest">
+      Did you mean: <span>afsar's wife</span>
+    </div>
+
+    <!-- AI BOX -->
+    <div class="ai-box">
+      <div class="ai-title">✨ AI Overview</div>
+      <tr>
+  <td colspan="2" style="
+    text-align:center;
+    padding:8px;
+    color:#d63384;
+    font-weight:bold;
+  ">
+  </td>
+</tr>
+
+      <div class="ai-content">
+        <div class="ai-text" id="aiText"></div>
+        <img id="aiImage" src="https://i.pravatar.cc/150?img=47">
+      </div>
+      
+
+      <button class="show-btn">Show more</button>
+
+      <!-- ❤️ ROMANTIC BUTTONS (FIXED CENTER) -->
+      <div class="love-btn-container">
+        <button onclick="openMessage('sad')" class="loveBtn"> Sad</button>
+        <button onclick="openMessage('miss')" class="loveBtn"> miss</button>
+        <button onclick="openMessage('angry')" class="loveBtn"> Angry</button>
+      </div>
+
+      <div id="specialMessage"></div>
+    </div>
+
+  </div>
+
+</div>
+
+<script src="cal.js"></script>
+
+</body>
+</html>
